@@ -25,12 +25,12 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // Owner
 global.owner = [
-  ['12024988527'],
-  ['12024988527'],
-  ['12024988527', 'Kemii Hime', 'Kemii Lèarning@gmail.com', true]
+  ['6285236138574'],
+  ['6285236138574'],
+  ['6285236138574', 'Yogxz ', 'Kemii Lèarning@gmail.com', true]
 ] // Put your number here
-global.mods = ['-'] // Moderator
-global.prems = ['-'] // Premium
+global.mods = ['6285236138574'] // Moderator
+global.prems = ['6285236138574'] // Premium
 global.rose = ''; //Api Rose
 global.lolkey = '';// Api Lolhuman
 global.APIs = {
@@ -59,11 +59,11 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'Kikuchanj - Sazumi Kemii'
-  var sticker_author = 'Sazumi Kemii'
+  var sticker_name = 'Yogxz - Cees'
+  var sticker_author = 'Yogxzz'
 } else {
-  var sticker_name = 'Kikuchanj'
-  var sticker_author = 'Sazumi Kemii'
+  var sticker_name = 'Yogxz'
+  var sticker_author = 'Yogxzz'
 }
 
 const file_exif = "lib/exif.json"
@@ -82,18 +82,18 @@ global.version = '1.1.8'
 global.sessionName = 'Kemii'
 global.gcbot = 'https://chat.whatsapp.com/EHvO9j6JMHb9roHNTvtbdy'
 global.instagram = 'https://instagram.com/kemii.learning'
-global.namebot = 'Kikuchanj'
+global.namebot = 'Yogxz Bot'
 global.thumb = 'https://telegra.ph/file/7b5416e93b4423845762d.jpg'
 global.thumbnail = 'https://telegra.ph/file/7b5416e93b4423845762d.jpg'
 global.myfile = fs.readFileSync(`./media/xfile.pdf`)
 global.thumb2 = fs.readFileSync('./media/thumbnail.mp4')
 global.qris = 'https://telegra.ph/file/ff5ff2954de46b9509a3d.jpg'
-global.creator = "12024988527@s.whatsapp.net"
-global.nomorown = '12024988527'
-global.nomerown = '+1 (202) 498-8527'//wajib kaya gitu!!
+global.creator = "6285236138574@s.whatsapp.net"
+global.nomorown = '6285236138574'
+global.nomerown = '+62852-3613-8574'//wajib kaya gitu!!
 
 // Sosial Media
-global.sig = 'https://wa.me/12024988527'
+global.sig = 'https://wa.me/6285236138574'
 global.syt = '-'
 global.sgh = '-'
 global.sgc = 'https://chat.whatsapp.com/EHvO9j6JMHb9roHNTvtbdy'
